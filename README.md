@@ -35,14 +35,17 @@ Then we can make a reasonable mock to start using TDD to get the backend up and 
 
 ## BDD User Stories
 
-(***Focusing on the "What" not the "How"***. For example, parts of these stories might be redundant, the "I am a user on SWARM" step will be a starting piece throughout the suite.
+( ***Focusing on the "What" not the "How".*** For example, parts of these stories might be redundant, the "I am a user on SWARM" step will be a starting piece throughout the suite.
 
 I already started to refine away from the "When I open the menu And I select the <blank>" because that was more about the "How" not the "What")
+
+### Epic: Initial Website
 
 ### Feature: Capturing the General Menu Actions
 
 #### User Story: Navigating Around the Website
 
+```
 Given that I am a user on SWARM.
 When I open the menu
 And I select characters
@@ -63,6 +66,7 @@ Given that I am a user on SWARM
 And I navigate to planets
 When I select a planet
 Then I should see species information for that planet
+```
 
 **From here, break down each of the menu segments above into user stories (then to individual scenarios) as they become sprint worthy**
 
