@@ -1,7 +1,5 @@
 # Test Driven Development (TDD) Playground
 
-Change in demo.
-
 Goal: Give examples of test driven development in Python, BDD and TDD
 
 ## Overview of the Activity
